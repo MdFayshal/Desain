@@ -17,6 +17,7 @@ section.main{
     font-weight:600;
 }
 .tp{
+    margin-inline: 18rem;
     font-weight: 400;
     color:hsl(229, 6%, 66%);
 }
@@ -196,6 +197,7 @@ img{
         font-weight:600;
     }
     .tp{
+        margin-inline:6rem;
         font-weight: 400;
         color:hsl(229, 6%, 66%);
     }
@@ -254,6 +256,7 @@ img{
         font-weight:600;
     }
     .tp{
+        
         font-weight: 400;
         color:hsl(229, 6%, 66%);
     }
@@ -301,7 +304,7 @@ img{
         width: 50%;
     }
     .tp{
-        margin-inline: 35rem;
+        margin-inline: 34rem;
         font-weight: 200;
         color:hsl(229, 6%, 66%);
     }
