@@ -1,0 +1,310 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:200,400,600";
+body{
+    width: 1440px;
+    height: auto;
+    font-Family: Poppins; 
+}
+
+section.main{
+    margin: auto;
+    width: 50%;
+}
+
+.hd1{
+    font-weight: 200;
+}
+.ht2{
+    font-weight:600;
+}
+.tp{
+    font-weight: 400;
+    color:hsl(229, 6%, 66%);
+}
+.card{
+    width: 25rem;
+    box-shadow: 5px 5px 15px hsl(229, 6%, 66%) ;
+}
+
+.card-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;   
+}
+.card-text{
+    font-weight: 200;
+    color:hsl(229, 6%, 66%);
+}
+.card.c1{
+    
+    margin-inline-start: -60px;
+
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card.c2{
+   margin-left: auto;
+   margin-bottom: 20px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card.c3{
+    margin-left: auto;
+    margin-top: 20px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.card.c4{
+    margin: auto;
+    margin-inline-start: 60px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+
+}
+img{
+    height: 50px;
+    width: 50px;
+} 
+/*================== @media Query ========================*/
+
+@media(max-width:1399px){
+    section.main{
+        margin: auto;
+        width: 50%;
+    }
+    
+    .hd1{
+        font-weight: 200;
+    }
+    .ht2{
+        font-weight:600;
+    }
+    .tp{
+        font-weight: 400;
+        color:hsl(229, 6%, 66%);
+    }
+    .card{
+        width: 20rem;
+        box-shadow: 5px 5px 15px hsl(229, 6%, 66%) ;
+    }
+    
+    .card-title {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;   
+    }
+    .card-text{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+    }
+    .card.c1{
+        
+        margin-inline-start: -20px;
+    
+        border-top: 5px solid hsl(180, 62%, 55%);
+    }
+    .card.c2{
+       margin-left: auto;
+       margin-bottom: 20px;
+        border-top: 5px solid hsl(0, 78%, 62%);
+    }
+    .card.c3{
+        margin-left: auto;
+        margin-top: 20px;
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+    .card.c4{
+        margin: auto;
+        margin-inline-start: 20px;
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+    
+
+    img{
+        height: 40px;
+        width: 40px;
+    } 
+}
+
+/*================== @media Query ========================*/
+
+@media(max-width:1199px){
+    section.main{
+        margin: auto;
+        width: 50%;
+    }
+    
+    .hd1{
+        font-weight: 200;
+    }
+    .ht2{
+        font-weight:600;
+    }
+    .tp{
+        font-weight: 400;
+        color:hsl(229, 6%, 66%);
+    }
+    .card{
+        width: 18rem;
+        box-shadow: 5px 5px 15px hsl(229, 6%, 66%) ;
+    }
+    
+    .card-title {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;   
+    }
+    .card-text{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+    }
+    .card.c1{
+        
+        margin-inline-start: -15px;
+    
+        border-top: 5px solid hsl(180, 62%, 55%);
+    }
+    .card.c2{
+       margin-left: auto;
+       margin-bottom: 20px;
+        border-top: 5px solid hsl(0, 78%, 62%);
+    }
+    .card.c3{
+        margin-left: auto;
+        margin-top: 20px;
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+    .card.c4{
+        margin: auto;
+        margin-inline-start: 20px;
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+    img{
+        height: 30px;
+        width: 30px;
+    } 
+
+}
+/*================== @media Query ========================*/
+
+@media(max-width:991px){
+    section.main{
+        margin: auto;
+        width: 50%;
+        font-size: 15px;
+    }
+    
+    .hd1{
+        font-weight: 200;
+    }
+    .ht2{
+        font-weight:600;
+    }
+    .tp{
+        font-weight: 400;
+        color:hsl(229, 6%, 66%);
+    }
+    .card{
+        width: 15rem;
+        box-shadow: 5px 5px 15px hsl(229, 6%, 66%) ;
+    }
+    
+    .card-title {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;   
+    }
+    .card-text{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+    }
+    .card.c1{
+        
+        margin-inline-start: -15px;
+    
+        border-top: 5px solid hsl(180, 62%, 55%);
+    }
+    .card.c2{
+       margin-left: auto;
+       margin-bottom: 20px;
+        border-top: 5px solid hsl(0, 78%, 62%);
+    }
+    .card.c3{
+        margin-left: auto;
+        margin-top: 20px;
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+    .card.c4{
+        margin: auto;
+        margin-inline-start: 20px;
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+    img{
+        height: 20px;
+        width: 20px;
+    } 
+
+}
+/*================== @media Query ========================*/
+
+@media(max-width:767px){
+    section.main{
+        margin: auto;
+    }
+    
+    .hd1{
+        font-weight: 200;
+    }
+    .ht2{
+        font-weight:600;
+    }
+    .tp{
+        font-weight: 400;
+        color:hsl(229, 6%, 66%);
+    }
+    .card{
+        width: 23rem;
+       
+        box-shadow: 5px 5px 15px hsl(229, 6%, 66%) ;
+    }
+    
+    .card-title {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;   
+    }
+    .card-text{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+    }
+    .card.c1{
+        margin: auto;
+        margin-bottom: 20px;
+        border-top: 5px solid hsl(180, 62%, 55%);
+    }
+    .card.c2{
+        margin: auto;
+        margin-bottom: 20px;
+        border-top: 5px solid hsl(0, 78%, 62%);
+    }
+    .card.c3{
+        margin: auto;
+        margin-bottom: 20px;
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+    .card.c4{
+        margin: auto;
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+
+}
+/*================== @media Query ========================*/
+
+@media(max-width:575px){
+        section.main{
+        margin: auto;
+        width: 50%;
+    }
+    .tp{
+        margin-inline: 35rem;
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+    }
+
+}
+
